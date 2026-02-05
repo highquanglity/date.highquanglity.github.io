@@ -1,7 +1,7 @@
 let leftPos = 0
 let bottomPos = 0
 document.getElementById('yessir').addEventListener('click', () => {
-    alert('Congratulations! You have been invited to a Valentine\'s Day dinner. Please RSVP by February 10th. We hope to see you there!')
+alert('Hiii Chíp 💕\n\nAnh có một lời mời rất đặc biệt dành cho em.\n\n⏰ 19:00 – 06/02/2026\n📍 ZAO Hanoi, No.4 Ng. Huế, Ngô Thì Nhậm, Hai Bà Trưng, Hà Nội\n\nMột buổi hẹn hò, một bữa ăn ngon, và một photobooth vintage mà em thích ✨\n\nEm siêu xinh.\nCòn anh thì siêu háo hức💖 Anh yêu em nhiềuuuuuuuuu')
 })
 document.getElementById('nooo').addEventListener('mouseover', () => {
     leftPos = Math.floor(Math.random() * (50 - (-50) + 1)) + (-50);
